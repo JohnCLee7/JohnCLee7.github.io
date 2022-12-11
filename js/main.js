@@ -8,7 +8,7 @@ window.addEventListener('stockData', function(e){
     let target = document.getElementById("stockViewer");
     let data = Model.getStock(code);
     target.innerHTML = "<ul><li>Code: " + data.code + "</li><li>Name: " + data.name + 
-                       "</li><li>Price Per Unit: $" + Number(data.price).toFixed(2) + "</li>" + 
+                       "</li><li>Price Per Unit: $" + Number(data.price) + "</li>" + 
                        "<li><form id='buy-" + data.code + "-form'><input type='submit' id='buyButton' value='Add to Portfolio: '></input><input type='number' id='quantity' value='1' min='1'></input></form></li>"
     let buttonid = "buy-" + data.code + "-form";
     let link = document.getElementById(buttonid);
