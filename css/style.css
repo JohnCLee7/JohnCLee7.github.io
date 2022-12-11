@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    color: black;
+    background-color: beige;
+}
+
+header {
+    
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 90%;
+    align-items: center;
+}
+
+#portfolio {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: lightblue;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#pf {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    align-items: center;
+    background-color: lightblue;
+    padding: 1%;
+}
+
+#myStockList {
+    display: inline-flex;
+}
+
+#search {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#stock {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: lightcoral;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+ul {
+    list-style-type:none;
+    padding-inline-start: 0;
+    padding-bottom: 2%;
+}
+
+#content {
+    margin: 2%;
+    justify-content: flex-start;
+    width: 95%;
+    align-items: center;
+}
+
+#heading {
+    text-align: center;
+}
+
+#heading h1 {
+    font-size: 300%;
+}

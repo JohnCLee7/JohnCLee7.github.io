@@ -1,0 +1,61 @@
+<!--
+  Neara Assessment - Stock Manager Homework Task
+  John Lee, 2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Stock Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+
+    <script src="./js/main.js" type=module defer></script>
+  </head>
+  <body>
+
+    <div id="content">
+
+      <div id="heading">
+          
+          <hgroup>
+              <div id="title">
+                <h1>Stock Portfolio Manager</h1>
+              </div>
+          </hgroup>
+          
+      </div>
+
+        <div id="portfolio">
+          <div class="pf">
+            <h2>My Portfolio</h2>
+            <button id="clearPortfolio">Reset Portfolio</button>
+            <div id="balanceammount">
+              <p>Cash Balance: </p>
+            </div>
+            <form id="alterBalance">
+              <input id="doChange" type="number" placeholder="Value">
+              <input type=submit value="Adjust Balance">
+            </form>
+            <div id="myStocks">
+              <h2>Stock Portfolio</h2>
+              <div id="totalVal"></div>
+              <div id="myStockList"></div>
+            </div>
+          </div>
+        </div>
+        <div id="search">
+          <h2>Stock Search</h2>
+          <form id="searchform">
+            <input type="text" id="searchBar" placeholder="Search for Stock..."></input>
+            <input type="submit" id="searchButton" value="Search"></input>
+          </form>
+          <div id="searchresults"></div>
+        </div>
+        <div id="stock">
+          <h2>Stock Details</h2>
+          <div id="stockViewer"></div>
+        </div>
+
+    </div>
