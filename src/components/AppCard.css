@@ -1,0 +1,44 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 95%;
+    background-color:lightblue;
+    font-size: calc(10px + 2vmin);
+    border-radius: 2vmin;
+    border: 2px solid black;
+}
+
+.button:hover {
+    background-color:cornflowerblue;
+}
+
+.button:active {
+    background-color:navy;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+}
+
+li {
+    width: 100%;
+}
+
+.eList {
+    width: 90%;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    background-color:lightblue;
+    color: black;
+    border-radius: 0 0 2vmin 2vmin;
+    border: 2px solid black;
+}
